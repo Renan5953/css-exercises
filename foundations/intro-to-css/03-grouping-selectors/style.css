@@ -1,0 +1,30 @@
+.first {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.second {
+    background-color: #ffff00;
+}
+
+.first,
+.second {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/helvetica/Helvetica.woff2') format('woff2'),
+         url('./fonts/helvetica/Helvetica.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('./fonts/timesnewroman/times-new-roman.woff2') format('woff2'),
+         url('./fonts/timesnewroman/times-new-roman.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
